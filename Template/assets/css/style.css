@@ -2774,14 +2774,114 @@ header.header-three .header-nav::before {
   right: 0;
   bottom: 0;
 }
+.mi_description p{
+  font-size: 10px;
+  visibility: hidden;
+}
+.mi_description .member-picture-wrap{
+  margin-bottom: 0 !important;
 
+
+}
+.mi_description .member-desc{
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+.mi_description:hover .member-desc{
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.mi_description:hover p{
+  visibility: visible;
+}
+.our_test h3 a{
+  font-size: 20px !important;
+}
 .service-boxes .service-box {
   margin-top: 50px;
   background-color: #fff;
-  padding: 50px;
+  padding: 50px 10px;
   position: relative;
 }
+.home_padd_o{
+  padding: 5px !important;
+}
+.home_padd_o h3 a{
+  font-size: 23px;
+}
+.home_padd_o p{
+  font-size: 13px;
+}
+.idea{
+  align-items: center;
+}
+.idea figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.idea h2 {
+  font-size: 13px;
+  margin-top: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.idea li{
+  vertical-align: middle;
+  margin-right: 20px !important;
+}
+.idea li a{
+  display: inline-block;
+}
+.idea li a figure img:first-child{
+  display: none;
+}
+.idea .aactive figure{
+  background-color: #1c6ba66b;
+}
+.idea .aactive figure img:first-child{
+  display: block;
+}
+.idea .aactive figure img:last-child{
+  display: none;
+}
+.idea li a span{
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 13px;
 
+}
+@media (max-width: 1024px) {
+  .home_padd_o .service-box {
+    min-height: 390px;
+  }
+  .home_padd_o h3 a{
+    font-size: 18px;
+  }
+  .home_padd_o p{
+    font-size: 13px;
+  }
+
+}
+@media (max-width: 600px) {
+  .wcu-section.box-style .wcu-inner::after {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+  }
+}
 @media (max-width: 1199px) {
   .service-boxes .service-box {
     padding: 40px 20px;
