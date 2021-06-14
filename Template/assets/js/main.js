@@ -746,4 +746,25 @@
 		new WOW().init();
 	});
 
+	$('.items').slick({
+		infinite: true,
+		slidesToShow: 1,
+		centerMode: true,
+		slidesToScroll: 3,
+		dots: true,
+		arrows: true,
+		responsive: [
+			{
+			  breakpoint: 768,
+			  settings: {
+			  slidesToShow: 1,
+			  centerMode: false, /* set centerMode to false to show complete slide instead of 3 */
+			  slidesToScroll: 1
+			  }
+			}
+		   ]
+	});
+		$(".btn_flex").on("click",function(){
+			$(".slick-next").click();
+		})
 })(jQuery);
