@@ -9276,7 +9276,7 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
     height: 40px;
   }
 
-  .general_menu a {
+  .general_menu a { 
     font-size: 14px;
   }
 
@@ -9301,4 +9301,11 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
   .wcu-section .wcu-text-two ul li {
     font-size: 11px;
   }
+}
+
+.footer-logo img {
+  max-height: 100px;
+}
+.site-logo img{
+  max-height: 75px;
 }
